@@ -1,4 +1,4 @@
-pip install transformers sentence_transformers textstat streamlit
+pip install -r requirements.txt
 
 import streamlit as st
 from transformers import pipeline
