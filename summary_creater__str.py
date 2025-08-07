@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer, util
 import textstat
 
 def load_models():
-    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
     sbert_model = SentenceTransformer('all-MiniLM-L6-v2')
     return summarizer, sbert_model
 
