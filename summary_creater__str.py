@@ -1,5 +1,3 @@
-pip install -r requirements.txt
-
 import streamlit as st
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
